@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="600"
+        x:Class="yt_tutorial.MainWindow"
+        Title="yt_tutorial">
+	<Grid Background="{DynamicResource ResourceKey=PrimaryBackground}" ColumnDefinitions="200, *">
+		<Border Padding="20" Background="{DynamicResource PrimaryBackgroundGradient}">
+			<Grid RowDefinitions="*, Auto">
+				<StackPanel Spacing="10">
+					<Grid HorizontalAlignment="Left" >
+						<Image Source="{SvgImage /Assets/Images/netwireLogo.svg}" Width="80" Margin="10"></Image>
+					</Grid>
+
+					<Button Content="Home" Foreground="White" HorizontalAlignment="Stretch"></Button>
+					<Button Content="Process" Foreground="White" HorizontalAlignment="Stretch"></Button>
+					<Button Content="Actions" Foreground="White" HorizontalAlignment="Stretch"></Button>
+					<Button Content="Macros" Foreground="White" HorizontalAlignment="Stretch"></Button>
+					<Button Content="Reporters" Foreground="White" HorizontalAlignment="Stretch"></Button>
+					<Button Content="History" Foreground="White" HorizontalAlignment="Stretch"></Button>
+				</StackPanel>
+
+				<Button Grid.Row="1" Content="History" Foreground="White" HorizontalAlignment="Stretch"></Button>
+
+
+			</Grid>
+		</Border>
+	</Grid>
+</Window>

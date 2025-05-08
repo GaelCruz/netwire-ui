@@ -19,34 +19,37 @@
 							<Label FontFamily="{DynamicResource SoraBold}"  Content="Home"> </Label>
 						</StackPanel>
 					</Button>
+
 					<Button Foreground="White" HorizontalAlignment="Stretch">
 						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xeb54;"> </Label>
 							<Label FontFamily="{DynamicResource SoraBold}"  Content="Process"> </Label>
 						</StackPanel>
 					</Button>
+
 					<Button Foreground="White" HorizontalAlignment="Stretch">
 						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe192;"> </Label>
 							<Label FontFamily="{DynamicResource SoraBold}"  Content="Actions"> </Label>
 						</StackPanel>
 					</Button>
+
 					<Button Foreground="White" HorizontalAlignment="Stretch">
 						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xeb44;"> </Label>
 							<Label FontFamily="{DynamicResource SoraBold}"  Content="Macros"> </Label>
 						</StackPanel>
 					</Button>
+
 					<Button Foreground="White" HorizontalAlignment="Stretch">
 						<StackPanel Orientation="Horizontal">
-							<Label FontFamily="{DynamicResource SoraBold}"  Content="Reporters"> </Label>
-						</StackPanel>
-					</Button>
-					<Button Foreground="White" HorizontalAlignment="Stretch">
-						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe2c2;"> </Label>
 							<Label FontFamily="{DynamicResource SoraBold}"  Content="History"> </Label>
 						</StackPanel>
 					</Button>
 				</StackPanel>
 
-				<Button Grid.Row="1" Content="Settings" Foreground="White" HorizontalAlignment="Stretch"></Button>
+				<Button Grid.Row="1" Background="" FontFamily="{DynamicResource SoraBold}" Content="&#xe228;"></Button>
 
 
 			</Grid>

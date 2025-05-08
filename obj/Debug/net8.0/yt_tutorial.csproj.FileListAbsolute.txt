@@ -72,3 +72,4 @@ C:\Users\gaele\IT\Coding\2025\C#\yt_tutorial\bin\Debug\net8.0\SkiaSharp.HarfBuzz
 C:\Users\gaele\IT\Coding\2025\C#\yt_tutorial\bin\Debug\net8.0\Svg.Custom.dll
 C:\Users\gaele\IT\Coding\2025\C#\yt_tutorial\bin\Debug\net8.0\Svg.Model.dll
 C:\Users\gaele\IT\Coding\2025\C#\yt_tutorial\bin\Debug\net8.0\Svg.Skia.dll
+C:\Users\gaele\IT\Coding\2025\C#\yt_tutorial\obj\Debug\net8.0\yt_tutorial.sourcelink.json

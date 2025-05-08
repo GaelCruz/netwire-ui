@@ -18,5 +18,13 @@
 		</LinearGradientBrush>
 		<SolidColorBrush x:Key="PrimaryHover">#32174d</SolidColorBrush>
 		<SolidColorBrush x:Key="PrimaryHoverText">White</SolidColorBrush>
+
+		<FontFamily x:Key="AndroidAssassinItalic">/Assets/Fonts/Android-Assassin-Italic.ttf#Android Assassin</FontFamily>
+		<FontFamily x:Key="AndroidAssassin">/Assets/Fonts/Android-Assassin.ttf#Android Assassin</FontFamily>
+		<FontFamily x:Key="GardionDemo">/Assets/Fonts/Gardion-Demo.otf#Gardion Demo</FontFamily>
+		<FontFamily x:Key="Sora">/Assets/Fonts/Sora-Regular.ttf#Sora</FontFamily>
+		<FontFamily x:Key="SoraBold">/Assets/Fonts/Sora-Bold.ttf#Sora</FontFamily>
+		<FontFamily x:Key="Phosphor">/Assets/Fonts/Phosphor.ttf#Phosphor</FontFamily>
+		<FontFamily x:Key="PhosphorFill">/Assets/Fonts/Phosphor-Fill.ttf#Phosphor</FontFamily>
 	</Application.Resources>
 </Application>

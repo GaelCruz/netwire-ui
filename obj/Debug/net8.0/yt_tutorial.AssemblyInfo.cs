@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yt_tutorial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aab68c297e53acd63cfffc9fc64ccd6cdfefa108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+178ee6e04b824d0a3eb7d9a33e3be105fda03006")]
 [assembly: System.Reflection.AssemblyProductAttribute("yt_tutorial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yt_tutorial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

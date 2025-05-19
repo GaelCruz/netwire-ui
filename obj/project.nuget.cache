@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vJeXKytvUa8=",
+  "dgSpecHash": "uMqYe5RynsA=",
   "success": true,
   "projectFilePath": "C:\\Users\\gaele\\IT\\Coding\\2025\\C#\\yt_tutorial\\yt_tutorial.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\gaele\\.nuget\\packages\\avalonia.themes.simple\\11.3.0\\avalonia.themes.simple.11.3.0.nupkg.sha512",
     "C:\\Users\\gaele\\.nuget\\packages\\avalonia.win32\\11.3.0\\avalonia.win32.11.3.0.nupkg.sha512",
     "C:\\Users\\gaele\\.nuget\\packages\\avalonia.x11\\11.3.0\\avalonia.x11.11.3.0.nupkg.sha512",
+    "C:\\Users\\gaele\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\gaele\\.nuget\\packages\\excss\\4.3.0\\excss.4.3.0.nupkg.sha512",
     "C:\\Users\\gaele\\.nuget\\packages\\harfbuzzsharp\\8.3.0.1\\harfbuzzsharp.8.3.0.1.nupkg.sha512",
     "C:\\Users\\gaele\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.3\\harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512",

@@ -1,0 +1,83 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="600"
+        x:Class="yt_tutorial.MainWindow"
+		xmlns:vm="clr-namespace:yt_tutorial.ViewModels"
+		xmlns:view="clr-namespace:yt_tutorial.Views"
+		x:DataType="vm:MainViewModel"
+        Title="yt_tutorial">
+
+	<Design.DataContext>
+		<vm:MainViewModel></vm:MainViewModel>
+	</Design.DataContext>
+
+
+	<Grid Background="{DynamicResource ResourceKey=PrimaryBackground}" ColumnDefinitions="Auto, *">
+
+		<ContentControl Grid.Column="1" Content="{Binding CurrentPage}">
+			
+		</ContentControl>
+
+
+		<Border Padding="20" Background="{DynamicResource PrimaryBackgroundGradient}">
+			<Grid RowDefinitions="*, Auto">
+				<StackPanel Spacing="10">
+					<Grid HorizontalAlignment="Left" >
+						<Image PointerPressed="Image_PointerPressed" Source="{SvgImage /Assets/Images/mainLogo.svg}" IsVisible="{Binding SideMenuExpanded}" Width="220" Margin="10"></Image>
+						<Image PointerPressed="Image_PointerPressed" Source="{SvgImage /Assets/Images/netwireLogo.svg}" IsVisible="{Binding !SideMenuExpanded}"  Width="30" Margin="10"></Image>
+					</Grid>
+
+					<Button Foreground="White" Classes.active="{Binding HomePageIsActive}" HorizontalAlignment="Stretch" Command="{Binding GoToHomeCommand}">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe2c2;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}"  Content="Home"> </Label>
+						</StackPanel>
+					</Button>
+
+					<Button Foreground="White" Classes.active="{Binding ProcessPageIsActive}" HorizontalAlignment="Stretch" Command="{Binding GoToProcessCommand}">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xeb54;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}" Content="Process"> </Label>
+						</StackPanel>
+					</Button>
+
+					<Button Foreground="White" HorizontalAlignment="Stretch">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe192;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}" Content="Actions"> </Label>
+						</StackPanel>
+					</Button>
+
+					<Button Foreground="White" HorizontalAlignment="Stretch">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xeb44;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}" Content="Macros"> </Label>
+						</StackPanel>
+					</Button>
+
+					<Button Foreground="White" HorizontalAlignment="Stretch">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe2f0;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}" Content="Reporter"> </Label>
+						</StackPanel>
+					</Button>
+
+					<Button Foreground="White" HorizontalAlignment="Stretch">
+						<StackPanel Orientation="Horizontal">
+							<Label Classes="icon"  Content="&#xe1a0;"> </Label>
+							<Label FontFamily="{DynamicResource SoraBold}" IsVisible="{Binding SideMenuExpanded}" Content="History"> </Label>
+						</StackPanel>
+					</Button>
+				</StackPanel>
+
+				<Button Classes="transparent" Grid.Row="1">
+					<Label Classes="icon" Content="&#xe272;"></Label>
+				</Button>
+
+
+			</Grid>
+		</Border>
+	</Grid>
+</Window>
